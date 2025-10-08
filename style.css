@@ -1,0 +1,47 @@
+body {
+	background: linear-gradient(45deg, blue, yellow);
+}
+
+p {
+	width: 65ch;
+	font-size: 25px;
+}
+
+#bluesquare {
+	width: 300px;
+	height: 300px;
+	background-color: blue;
+
+	position: fixed;
+	top: 200px;
+	left: 300px;
+	overflow: hidden;
+	transform: rotate(45deg);
+	z-index: 1;
+	box-shadow: 50px 50px 10px black;
+}
+
+
+#redcircle {
+	width: 300px;
+	height: 300px;
+	background-color: red;
+	border-radius: 50%;
+
+	position: absolute;
+	top: 0px;
+	left: 150px;
+	box-shadow: 5px 10px 30px black;
+	background: radial-gradient(circle, yellow, green);
+}
+
+#shadow {
+	background-color: black;
+	width: 600px;
+	height: 300px;
+	border-radius: 50%;
+	filter: blur(20px);
+}
+
+
+
